@@ -12,7 +12,7 @@
     "@sap/ux-specification": "^1.136.6"
   },
   "scripts": {
-    "start": "cds-serve",
+    "start": "cds run",
     "watch-app-categories": "cds watch --open app-categories/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-app-wallets": "cds watch --open app-wallets/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-app-movements-types": "cds watch --open app-movements-types/webapp/index.html?sap-ui-xx-viewCache=false",

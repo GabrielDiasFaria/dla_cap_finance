@@ -12,7 +12,7 @@ service movements {
             {Value: title},
             {
                 Value      : amount,
-                Criticality: {$value: criticality}
+                Criticality: criticality
             },
             {
                 Value: type_name,
